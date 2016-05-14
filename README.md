@@ -11,7 +11,7 @@ The program opens and reads a user-specified text file (or uses hard-coded defau
 
 * \<h1\> tags: cleaned and saved, labelled as 'Title';
 * \<h2\> tags: cleaned and saved, labelled as 'Header';
-* \<h3\> to <h6> tags: cleaned and saved, labelled as 'Sub-header';
+* \<h3\> to \<h6\> tags: cleaned and saved, labelled as 'Sub-header';
 * \<em\> tags (italics): cleaned and saved, labelled as 'Para-header' (Paragraph header);
 * \<p\> tags: indicate text paragraphs, cleaned and saved only (no additional labels added);
 * all other tags: ignored.
@@ -35,7 +35,7 @@ Further improvements to be made:
 
 
 Future developments planned:
-* Build program into a relevance engine by using all identified keywords/key phrases. Those keywords/phrases identified as coming from lines with header tags ( <h1>, <h2>, etc.) are to be weighted most highly, followed by words/phrases appearing most often in the paragraph text;
+* Build program into a relevance engine by using all identified keywords/key phrases. Those keywords/phrases identified as coming from lines with header tags ( \<h1\>, \<h2\>, etc.) are to be weighted most highly, followed by words/phrases appearing most often in the paragraph text;
 * Delve further into the web data headers and meta data to extract further useful info if required (+ save to output file)
 * Search for all links on the page/in the text (in the body text and/or in the headers/footers) adn save to a directory (and/or append to the output file)
 * Provide user with an option to follow any or the URL links identified (both internally to the domain host, and externally).
