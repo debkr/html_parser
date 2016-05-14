@@ -24,7 +24,7 @@ Two files are saved (user-entry required for filenames):
 
 
 Some problems to be ironed out:
-* This program has problems with ASCII codes; the current work-around is to go in and perform a second, manual clean-up on the final output text file.
+* This program has problems with ASCII codes. The current work-around is to go in and perform a second, manual clean-up on the final output text file. This is too much manual intervention - need to find a way to fix this in-program.
 
 
 Further improvements to be made:
