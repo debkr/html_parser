@@ -9,11 +9,11 @@ A simple text reader/cleaner to handle HTML tagging in text files parsed from th
 
 The program opens and reads a user-specified text file (or uses hard-coded default filename on 'enter'). Searching line by line based on html tagging, it appends only the relevant html-tagged lines to a new text string ('taggedtext'), then cleans those same lines (strips out the html following tagging) and appends the cleaned text to a new text string ('cleanedtext'), with additional labelling where relevant. Tags are handled as follows:
 
-* <h1> tags: cleaned and saved, labelled as 'Title';
-* <h2> tags: cleaned and saved, labelled as 'Header';
-* <h3> to <h6> tags: cleaned and saved, labelled as 'Sub-header';
-* <em> tags (italics): cleaned and saved, labelled as 'Para-header' (Paragraph header);
-* <p> tags: indicate text paragraphs, cleaned and saved only (no additional labels added);
+* \<h1\> tags: cleaned and saved, labelled as 'Title';
+* \<h2\> tags: cleaned and saved, labelled as 'Header';
+* \<h3\> to <h6> tags: cleaned and saved, labelled as 'Sub-header';
+* \<em\> tags (italics): cleaned and saved, labelled as 'Para-header' (Paragraph header);
+* \<p\> tags: indicate text paragraphs, cleaned and saved only (no additional labels added);
 * all other tags: ignored.
 
 The program has been hard-coded to deal with some additional commonly-identified exceptions in the cleaning process (with user input required to check and confirm action required: add to text string or ignore).
@@ -29,7 +29,7 @@ Some problems to be ironed out:
 
 Further improvements to be made:
 * Use the 'Title' label (lowercase and stripped of whitespace) as a default output filename (with user override option);
-* Add option to identify keywords, calculate their counts and append to the output file if required (see tag_eng & blog_tagger);
+* Add option to identify keywords, calculate their counts and append to the output file if required (see tag\_eng & blog\_tagger);
 * Add option for user to identify key phrases (of 2, 3 or 4 words' length), calculate their counts and append to the output file if required (program still to be built);
 * Handle other html tags as required (e.g. html tags inside cleaned/detagged text lines, such as italics, strong, etc.).
 
