@@ -1,5 +1,5 @@
 # HTML Parser 1.0.0
-# AntyZebra 14 May 2016
+# 14 May 2016
 # A simple text reader/cleaner to handle HTML
 # tagging in text files parsed from the web
 
